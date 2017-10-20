@@ -9,37 +9,26 @@
 <div class="search"><input type="text" name="search" value="" placeholder="Search Orphanage" class="search-box-input" />
 <button class="search_box_button">&#128269;</button>
 </div>
+    
 </header>
 
-<nav>
-	<ul class="showing">
-            <a href="index.php"><li>Home</li></a>
-		<a href="#"><li>About Us</li></a>
-		<a href="#"><li>Orphanages</li></a>
-		<a href="#"><li>Support</li></a>
-		<a href="#"><li>Gallery</li></a>
-		<li>
-			<a href="#">Services</a>
-			<ul class="submenu">
-				<li><a href="#"> Sponsorship</a></li>
-				<li><a href="#">Adoption</a></li>
-				<li><a href="#">Donation</a></li>
-				<li><a href="#">Charity Event(s)</a></li>
-
-
-
-			</ul>
-
-
-		</li>
-		<a href="#"><li>Contact Us</li></a>
-		<a href="#" class="donate"><li>Donate</li></a>
-
-
-
-
-	</ul>
-	<div class="handle">Menu</div>
+    <nav class="menu">
+        <ul class="active">
+            <li class="current-item"><a href="index.php">Home</a></li>
+             <li><a href="#">About Us</a></li>
+              <li><a href="#">Orphanages</a></li>
+               <li><a href="#">Support</a></li>
+                <li><a href="#">Gallery</a></li>
+                 <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                   <li><a href="#">Donate</a></li>
+            
+            
+            
+            
+        </ul>
+        <a class="toggle-nav" href="#">&#9776;</a>
+	
 
 </nav>
 <div class="info">
@@ -74,8 +63,8 @@ Kenya AIDS Indicator Survey (KAIS 2012) estimated that there were 2.6 million OV
 The 2.6 million OVC constitute a significant proportion of Kenya's population aged below 18 years. Special attention should be paid to OVC to prevent further vulnerability and ensure their well-being and development as they transition into adulthood.
 </section>
 </body>
-<script type="text/javascript" src="script/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="script/nav.js"></script>
+<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="scripts/home.js"></script>
 
 <footer>
 	<div class="footer-main">
