@@ -2,10 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<title>Navigation Demo</title>
+	<title>Kenya Orphanage Information Management System</title>
 </head>
 <body>
-<header>WELCOME TO THE FAMILY,We Are So Glad To Have You Here!.
+    <header><div id="header">THE KENYA ORPHANAGE HOMES.</div>
 <div class="search"><input type="text" name="search" value="" placeholder="Search Orphanage" class="search-box-input" />
 <button class="search_box_button">&#128269;</button>
 </div>
@@ -14,14 +14,26 @@
 
     <nav class="menu">
         <ul class="active">
-            <li class="current-item"><a href="index.php">Home</a></li>
-             <li><a href="#">About Us</a></li>
+            <li class="current-item"><a href="index.php"><img id="donate" src="images/menu_icons/home.png">Home</a></li>
+            <li><a href="#"><img id="donate" src="images/menu_icons/about_us.png">About Us</a></li>
               <li><a href="#">Orphanages</a></li>
-               <li><a href="#">Support</a></li>
-                <li><a href="#">Gallery</a></li>
-                 <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                   <li><a href="#">Donate</a></li>
+               <li><a href="#">Gallery</a></li>
+                 <li>
+                     <a href="#"><img id="donate" src="images/menu_icons/support.png">Services</a>
+                     <ul class="subMenu">
+                         <li><a href="#">Sponsorship</a></li> 
+                         <li><a href="#">Adoption</a></li> 
+                         <li><a href="#">Donation</a></li> 
+                         <li><a href="#">Charity Event(s)</a></li>
+                         <li><a href="#">Other Services</a></li> 
+                         
+                     </ul>
+                 
+                 </li>
+                 
+                 <li><a href="#"><img id="donate" src="images/menu_icons/contact_us.png">Contact Us</a></li>
+                 <li><a href="#"><img id="donate" src="images/menu_icons/donate.jpg">Donate</div></a></li>
+                 <li><a href="#" onclick="window.open('login.php','_blank','height=400,width=500, top=200,left=300,scrollbars=no,resizable=no ')"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>
             
             
             
