@@ -16,7 +16,7 @@
         <ul class="active">
             <li class="current-item"><a href="index.php"><img id="donate" src="images/menu_icons/home.png">Home</a></li>
             <li><a href="pages/about_us.php"><img id="donate" src="images/menu_icons/about_us.png">About Us</a></li>
-            <li><a href="pages/orphanages.php"><img id="donate" src="images/image4.jpg">Orphanages</a></li>
+            <li><a href="pages/orphanages.php"><img id="donate" src="images/menu_icons/image4.jpg">Orphanages</a></li>
                  <li>
                      <a href="#"><img id="donate" src="images/menu_icons/support.png">Services</a>
                      <ul class="subMenu">
@@ -32,13 +32,13 @@
                  
                  <li><a href="pages/contact_us.php"><img id="donate" src="images/menu_icons/contact_us.png">Contact Us</a></li>
                  <li><a href="pages/donate.php"><img id="donate" src="images/menu_icons/donate.jpg">Donate</div></a></li>
-                 <li><a href="#" onclick="window.open('pages/login.php','_blank','height=400,width=500, top=200,left=300,scrollbars=no,resizable=no ')"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>
-            
+                 <li><a href="pages/login.php"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>
+            <!--<li><a href="#" onclick="window.open('pages/login.php','_blank','height=400,width=400, top=200,left=300,scrollbars=no,resizable=no ')"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>-->
             
             
             
         </ul>
-        <a class="toggle-nav" href="#">&#9776;</a>
+       <!-- <a class="toggle-nav" href="#">&#9776;</a>-->
 	
 
 </nav>
@@ -59,21 +59,21 @@
 <div class="slideShowContainer">
     <ul class="slideShow">
 		
-        <li> <img src="images/image1.jpg"></li>
-		<li><img src="images/image2.jpg" ></li>
-		<li><img src="images/image3.jpg" ></li>
-		<li><img src="images/image4.jpg"></li>
-		<li><img src="images/image5.jpg"></li>
-		<li><img src="images/image6.jpg"></li>
-		<li><img src="images/image7.jpg"></li>
-		<li><img src="images/image8.jpg"></li>
-		<li><img src="images/image9.jpg"></li>
-		<li><img src="images/image10.jpg"></li>
-		<li><img src="images/image11.jpg"></li>
-		<li><img src="images/image13.jpg"></li>
-		<li><img src="images/image13.jpg"></li>
-                <button class="right_arrow" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="left_arrow" onclick="plusDivs(+1)">&#10095;</button>
+        <li> <img src="images/image_slider/image1.jpg"></li>
+        <li><img src="images/image_slider/image2.jpg" ></li>
+        <li><img src="images/image_slider/image3.jpg" ></li>
+        <li><img src="images/image_slider/image4.jpg"></li>
+        <li><img src="images/image_slider/image5.jpg"></li>
+        <li><img src="images/image_slider/image6.jpg"></li>
+        <li><img src="images/image_slider/image7.jpg"></li>
+        <li><img src="images/image_slider/image8.jpg"></li>
+        <li><img src="images/image_slider/image9.jpg"></li>
+        <li><img src="images/image_slider/image10.jpg"></li>
+        <li><img src="images/image_slider/image11.jpg"></li>
+        <li><img src="images/image_slider/image13.jpg"></li>
+        <li><img src="images/image_slider/image13.jpg"></li>
+                <!--<button class="right_arrow" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="left_arrow" onclick="plusDivs(+1)">&#10095;</button>-->
 
 
 
@@ -135,16 +135,19 @@ The 2.6 million OVC constitute a significant proportion of Kenya's population ag
 	</div>
 
 	</div>
+            <hr>
 	
 <div class="social_media">
 
-		<a href="#"><img class="social" src="images/social_media_icons/youtube.png"/>You Tube</a>
-		<a href="#"><img class="social " src="images/social_media_icons/facebook.png"/>Facebook</a>
-		<a href="#"><img class="social " src="images/social_media_icons/twitter.png"/>Twitter</a>
-		<a href="#"><img class="social " src="images/social_media_icons/instagram.jpg"/>Instagram</a>
-		<a href="#"><img class="social " src="images/social_media_icons/whatsapp.jpg"/>Whatsapp</a>
+    <a href="#"><img class="social" src="images/social_media_icons/youtube.png"/></a>&nbsp;
+		<a href="#"><img class="social " src="images/social_media_icons/facebook.png"/></a>&nbsp;
+		<a href="#"><img class="social " src="images/social_media_icons/twitter.png"/></a>&nbsp;
+		<a href="#"><img class="social " src="images/social_media_icons/instagram.jpg"/></a>&nbsp;
+		<a href="#"><img class="social " src="images/social_media_icons/whatsapp.jpg"/></a>&nbsp;
+                
 
 	</div>
+        </div>
 </footer>
 
 <div id="copyright">&COPY;2017-Kenya Orphanage Information Management System</div>

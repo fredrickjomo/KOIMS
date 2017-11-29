@@ -6,14 +6,30 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <link rel="stylesheet" href="../css/login.css">
         <meta charset="UTF-8">
-        <title>KOIMS Login</title>
+        <title>Login </title>
     </head>
     <body>
         <?php
         // put your code here
         ?>
+        <div id="login">
+        <h1>Member Login:</h1>
+        <img src="../images/login_page_images/login-icon-png-27.png">
+        <form action="login.php" method="POST">
         <input type="text" value="" placeholder="Username" required=""></br></br>
         <input type="password" value="" placeholder="Password" required=""></br></br>
+        <input type="submit" class="app-button" value="Sign In" name="signin" />
+        <input type="submit" class="app-button" value="Sign Up" name="sign_up" />
+        </form>
+        
+        </div>
+        <div class="footer">
+            &COPY;2017-Kenya Orphanage Information Management System 
+        </div>
     </body>
+    <script type="text/javascript" src="../scripts/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../scripts/login.js"></script>
+    
 </html>
