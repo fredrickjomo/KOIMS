@@ -63,7 +63,21 @@ input[type=submit]{
 }
 .app-button{
     margin-top: 10px;
+    margin-left: 45%;
+    margin-right: 5px;
+    width: 150px;
+}
+.sign_in_button{
+    margin-top: 10px;
     margin-left: 35px;
     margin-right: 35px;
+    width: 150px;
+}
+#login a{
+    color: #ff3333;
+}
+#login p{
+    font-size: 15px;
+    float: right;
 }
 }

@@ -1,0 +1,58 @@
+@media screen and (min-device-width:860px){
+body{
+    background-color: #666666;
+    background-image: url(../images/contact_us_images/Kenyan_Orphanage_Map01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#contact_us{
+    padding-top: 15%;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    display: inline-block;
+    
+}
+#social-media{
+    float: left;
+    width: 20%
+}
+.header{
+    border: solid #333333;
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: #666666;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 43%;
+}
+#telephone{
+    margin: 0 auto;
+    width: 20%;
+}
+#email{
+    float: right;
+    width: 20%;
+}
+#links{
+    border: solid #333333;
+    height: 200px;
+    margin-left: 0px;
+    width: 200px;
+    
+}
+#links img{
+    height: 35px;
+    width: 35px;
+    padding-top: 5px;
+    border-radius: 25px;
+    border:thin solid #666666;
+    background-color: #666666;
+}
+}

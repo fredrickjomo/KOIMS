@@ -14,11 +14,11 @@
 
     <nav class="menu">
         <ul class="active">
-            <li class="current-item"><a href="index.php"><img id="donate" src="images/menu_icons/home.png">Home</a></li>
-            <li><a href="pages/about_us.php"><img id="donate" src="images/menu_icons/about_us.png">About Us</a></li>
-            <li><a href="pages/orphanages.php"><img id="donate" src="images/menu_icons/image4.jpg">Orphanages</a></li>
+            <li class="current-item"><a href="index"><img id="donate" src="images/menu_icons/home.png">Home</a></li>
+            <li><a href="pages/about_us"><img id="donate" src="images/menu_icons/about_us.png">About Us</a></li>
+            <li><a href="pages/orphanages"><img id="donate" src="images/menu_icons/image4.jpg">Orphanages</a></li>
                  <li>
-                     <a href="#"><img id="donate" src="images/menu_icons/support.png">Services</a>
+                     <a href="#"><img id="donate" src="images/menu_icons/support.png">Services &Darr;</a>
                      <ul class="subMenu">
                          <li><a href="#">Sponsorship</a></li> 
                          <li><a href="#">Adoption</a></li> 
@@ -30,9 +30,9 @@
                  
                  </li>
                  
-                 <li><a href="pages/contact_us.php"><img id="donate" src="images/menu_icons/contact_us.png">Contact Us</a></li>
-                 <li><a href="pages/donate.php"><img id="donate" src="images/menu_icons/donate.jpg">Donate</div></a></li>
-                 <li><a href="pages/login.php"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>
+                 <li><a href="pages/contact_us"><img id="donate" src="images/menu_icons/contact_us.png">Contact Us</a></li>
+                 <li><a href="pages/donate"><img id="donate" src="images/menu_icons/donate.jpg">Donate</a></li>
+                 <li><a href="pages/login"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>
             <!--<li><a href="#" onclick="window.open('pages/login.php','_blank','height=400,width=400, top=200,left=300,scrollbars=no,resizable=no ')"><img id="donate" src="images/menu_icons/login-icon-png-27.png">Login</a></li>-->
             
             

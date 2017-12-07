@@ -20,9 +20,11 @@ and open the template in the editor.
         <form action="login.php" method="POST">
         <input type="text" value="" placeholder="Username" required=""></br></br>
         <input type="password" value="" placeholder="Password" required=""></br></br>
-        <input type="submit" class="app-button" value="Sign In" name="signin" />
-        <input type="submit" class="app-button" value="Sign Up" name="sign_up" />
+        <input type="submit" class="sign_in_button" value="Sign In" name="signin" />
+        <a href="../pages/password_recovery">Forgot Password?</a>
         </form>
+        <input type="submit" class="app-button" value="Sign Up" name="sign_up" />
+        <p>&#x2190;Don't have an account?</p>
         
         </div>
         <div class="footer">
