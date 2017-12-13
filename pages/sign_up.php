@@ -6,6 +6,9 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <?php
+        include 'header.php';
+        ?>
         <link rel="stylesheet" href="../css/sign_up.css">
         <meta charset="UTF-8">
         <title>Register An Account</title>

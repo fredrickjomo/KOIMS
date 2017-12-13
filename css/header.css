@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+   position: fixed;
+}
+#donate{ /*menu icons sizing and other properties*/
+    height: 30px;
+    width: 30px;
+    border-radius: 140px;
+    margin: 0 auto;
+}
+#donate img{
+    padding-top: 20px;
+}
+ #header{
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 0 auto;
+    float: left;
+    color: #fff;
+    }
+    .menu{
+        width: 100%;
+        padding: 10px 0px;
+        box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+        border-radius: 0px;
+        background:#666666;
+        
+    }
+    
+    .search{
+	float: right;
+	border-radius: 5px;
+	display: inline-flex; /*/aligning both search-box and search icon together */
+	font-size: 20px;
+}
+.search-box-input{
+	font-size: inherit;
+	border:0.1em solid #666666;
+	border-radius: 0.2em 0 0 0.2em;
+	padding:0.2em 0.5em;
+	outline: 0;
+
+}
+.search-box-input:hover,
+.search-box-input:focus{
+	border-color: #4d4;
+}
+.search_box_button{
+	font-size: inherit;
+	border-radius: 0.1em solid #666666;;
+	padding:0 0.3em 0.3em 0;
+	background-color: #666666;;
+	border-left: 0;
+	padding: 0 0.75em;
+	color: white;
+	font-weight: bold;
+	outline: 0;
+	cursor: pointer;
+
+
+}
+.search_box_button:hover,
+.search_box_button:focus{
+	border-color: #4d4;
+}
+.search_icon{
+	max-height: 20px;
+	max-width: 20px;
+	padding: 0px;
+	margin-right: 5px;
+}
+#coolMenu,
+#coolMenu ul{
+    list-style: none;
+}
+#coolMenu{
+    float: left;
+    font-family: arial;
+    font-size: 17px;
+}
+#coolMenu > li{
+ float: left;   
+}
+#coolMenu li a{
+    display: block;
+    margin-top:auto;
+    height: 1.5em;
+    line-height: 2em;
+    padding:0 2.0em; /*horizontal margin between menus */ 
+    text-decoration: none;
+}
+#coolMenu ul{
+    position: absolute; /*equal spacing between menus*/
+    display: none;/*hide dropdown menu items*/
+    z-index: 999;
+}
+#coolMenu ul li a{
+    width: auto; /*width of the dropdown menu items*/
+}
+#coolMenu li:hover ul{
+    display: block; /* show dropdown menu items on hovering over the main menu item*/
+}
+#coolMenu > li > a{
+    color:#333333; /* text color of main menu items*/
+    font-weight: bold;
+}
+#coolMenu > li:hover > a{
+    text-decoration: none;
+  background: none; /*background color on hovering over the menu */
+  color: #cccccc;
+}
+#coolMenu ul li a{
+    color: #6666ff; /*text color of dropdown menu items*/
+}
+#coolMenu ul li:hover a{
+    text-decoration: none;
+    background:none;
+    color: #cccccc;
+}
+#coolMenu li:hover ul#subMenu{
+    display: block;
+}

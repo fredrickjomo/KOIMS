@@ -4,16 +4,19 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/KOIMS/pages/sign_up.php</file>
-            <file>file:/C:/xampp/htdocs/KOIMS/css/contact_us.css</file>
             <file>file:/C:/xampp/htdocs/KOIMS/scripts/home.js</file>
             <file>file:/C:/xampp/htdocs/KOIMS/css/sign_up.css</file>
-            <file>file:/C:/xampp/htdocs/KOIMS/css/donate.css</file>
             <file>file:/C:/xampp/htdocs/KOIMS/pages/donate.php</file>
-            <file>file:/C:/xampp/htdocs/KOIMS/scripts/donate.js</file>
             <file>file:/C:/xampp/htdocs/KOIMS/index.php</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/scripts/header.js</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/pages/header.php</file>
             <file>file:/C:/xampp/htdocs/KOIMS/css/homepage.css</file>
-            <file>file:/C:/xampp/htdocs/KOIMS/scripts/login.js</file>
             <file>file:/C:/xampp/htdocs/KOIMS/pages/login.php</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/css/contact_us.css</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/css/donate.css</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/scripts/donate.js</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/scripts/login.js</file>
+            <file>file:/C:/xampp/htdocs/KOIMS/css/header.css</file>
             <file>file:/C:/xampp/htdocs/KOIMS/pages/contact_us.php</file>
         </group>
     </open-files>

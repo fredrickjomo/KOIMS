@@ -10,10 +10,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Login </title>
     </head>
+   
     <body>
-        <?php
-        // put your code here
-        ?>
+        
         <div id="login">
         <h1>Member Login:</h1>
         <img src="../images/login_page_images/login-icon-png-27.png">
