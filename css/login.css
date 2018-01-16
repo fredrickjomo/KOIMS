@@ -1,13 +1,37 @@
-body{
-    background-color: #999999;
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+    
 }
-@media screen and (min-width:400px){
-h1{
-    font-family: sans-serif;
-    text-decoration: underline;
-    color: #333333;
+.nav-link{
+    color: #fff;
+    margin-left: 20px;
+    padding: 0 2.0em;
 }
-#login{
+h2{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 0 2.0em;
+    line-height: 0.7em;
+}
+
+.dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+#copyright{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    margin: 0 auto;
+}
+.col-9{
     margin: 0 auto;
     align-items: center;
     text-align: center;
@@ -15,69 +39,48 @@ h1{
     width: 50%;
     height: auto;
     padding-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: #ffffff;
     border-radius: 10px;
     
 }
-#login img{
+.col-9 h1{
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: #333333;
+}
+.col-9 img{
     width: 200px;
     height: 200px;
     float: left;
     padding-left: 30px;
 }
+.col-9 a{
+    color: #ff3333;
+    font-style: italic;
+    margin: 0 auto;
+    margin-right: 44%;
+}
+.labels{
+   margin-right: 48%; 
+}
 input[type=text]{
-    padding-right: 10%;
     height: 40px;
-    margin-top: 5%;
-    border: solid #666666;
+    margin: 0 auto;
     border-radius: 10px;
     font-size: 20px;
-    width: 180px;
+    width: 200px;
+    margin-right: 43%;
 }
 input[type=password]{
-    padding-right: 10%;
     height: 40px;
-    border: solid #666666;
+    margin: 0 auto;
     border-radius: 10px;
-    width: 180px;
     font-size: 20px;
+    width: 200px;
+    margin-right: 43%;
 }
-input[type=submit]{
-    height: 30px;
-    color: #0033ff;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-align: center;
-     border-radius: 5px;
-}
-.footer{
-    width: 100%;
-    padding-bottom:0%;
-    padding-top:0%;
-    margin:0 auto;
-    align-items: center;
-    text-align: center;
-    
-    
-}
-.app-button{
-    margin-top: 10px;
-    margin-left: 45%;
-    margin-right: 5px;
-    width: 150px;
-}
-.sign_in_button{
-    margin-top: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
-    width: 150px;
-}
-#login a{
-    color: #ff3333;
-}
-#login p{
-    font-size: 15px;
-    float: right;
-}
+.btn-group{
+    margin: 0 auto;
+    margin-right: 37%;
 }
