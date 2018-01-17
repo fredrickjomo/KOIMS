@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="../css/login.css">
        <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <script src="../scripts/jquery-3.2.1.js"></script>
@@ -26,13 +27,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="../index">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../index"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/about_us">About Us</a>
+        <a class="nav-link" href="../pages/about_us"><i class="fa fa-info-circle" aria-hidden="true"></i> About Us</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="../pages/orphanages">Orphanages</a>
+        <a class="nav-link" href="../pages/orphanages"><i class="fa fa-child" aria-hidden="true"></i> Orphanages</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,13 +51,13 @@
        
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="../pages/contact_us">Contact US</a>
+        <a class="nav-link" href="../pages/contact_us"><i class="fa fa-phone" aria-hidden="true"></i> Contact US</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="../pages/donate">Donate</a>
+        <a class="nav-link" href="../pages/donate"><i class="fa fa-heart-o" aria-hidden="true"></i> Donate</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link active" href="../pages/login">Login</a>
+        <a class="nav-link active" href="../pages/login"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
