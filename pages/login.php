@@ -1,3 +1,14 @@
+<?php
+ob_start();
+session_start();
+include_once '../DbConnect.php';
+
+
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
