@@ -84,3 +84,20 @@ input[type=password]{
     margin: 0 auto;
     margin-right: 37%;
 }
+.inputIcon{
+    position: relative;
+    
+}
+.inputIcon input[type=text]{
+    padding-left: 35px;
+}
+.inputIcon input[type=password]{
+    padding-left: 35px;
+}
+.inputIcon i{
+    position: absolute;
+    left: 0;
+    top:11px;
+    padding-left: 34%;
+    
+}

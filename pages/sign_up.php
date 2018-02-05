@@ -16,12 +16,16 @@ if(isset($_POST['sign_up'])){
     $Username=$_POST['username'];
     $Password=$_POST['password'];
     $ConfirmPassword=$_POST['confirm_password'];
+    
     //$ProfilePhoto=$conn->real_escape_string('image/'.$_FILES['profile_photo']['name']);
    
+    
     $sql="insert into users(first_name,last_name,id_number,age,gender,nationality,county,email_address,username,password)values('$Firstname','$Lastname','$Idno','$Age','$Gender','$Nationality','$County','$Email','$Username','$Password')";
+    
     if(mysqli_query($conn, $sql)){
         echo "<script>alert('Successfully Registered an account')</script>";
     }
+    
     else{
         echo "<script>alert('Error:.'$sql'<br>.mysqli_error(%conn)')</script>";
         echo "Error:".$sql."<br>".  mysqli_error($conn);        
@@ -162,7 +166,7 @@ if(isset($_POST['sign_up'])){
                   
                     <label for="username">Username:</label>
                     <input type="text" class="form-control" name="username" id="username" aria-describedby="username" placeholder="Create Username">
-                       
+                       <i class="fa fa-user" aria-hidden="true"></i>
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
                        

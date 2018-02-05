@@ -25,7 +25,7 @@ include_once '../DbConnect.php';
       <script src="../scripts/login.js"></script>
       <!--<script src="main.js"></script>-->
 
-    <title>Kenya Orphanage Information Management System</title>
+    <title>Login to your account</title>
   </head>
   <body><h2 class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">THE KENYA ORPHANS' HOMES</h2>
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -91,9 +91,11 @@ include_once '../DbConnect.php';
         <form action="../pages/login" method="post">
   <div class="form-group">
     <label for="username" class="labels">Username</label>
-    <input type="text" class="form-control" id="input" placeholder="" required>
+    <div class="inputIcon"> <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input type="text" class="form-control" id="input" placeholder="" required></div>
       <label for="password" class="labels">Password</label>
-    <input type="password"class="form-control" id="input" placeholder="" required>
+      <div class="inputIcon"> <i class="fa fa-key" aria-hidden="true"></i>
+          <input type="password"class="form-control" id="input" placeholder="" required></div>
   </div>
             <div class="btn-group" role="group" aria-label="buttons">
             <input type="submit" class="btn btn-primary" value="Sign In" name="sign_in">

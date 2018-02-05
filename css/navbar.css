@@ -1,0 +1,33 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+    
+}
+.nav-link{
+    color: #fff;
+    margin-left: 20px;
+    padding: 0 2.0em;
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 0 2.0em;
+    line-height: 0.7em;
+}
+
+.dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+#copyright{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    margin: 0 auto;
+}

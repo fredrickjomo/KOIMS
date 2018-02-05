@@ -10,10 +10,10 @@
       <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="../css/navbar.css">
        <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <script src="jquery-3.2.1.js"></script>
+    <script src="../jquery-3.2.1.js"></script>
       <!--<script src="main.js"></script>-->
 
-    <title>Kenya Orphanage Information Management System</title>
+    <title>Kenya Orphanages</title>
   </head>
   <body><h2 class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">THE KENYA ORPHANS' HOMES</h2>
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -66,7 +66,7 @@
   </div>
 </nav>
       
-      <script src="Bootstrap/js/bootstrap.min.js"></script>
+      <script src="../Bootstrap/js/bootstrap.min.js"></script>
     <script src="../scripts/jquery-3.2.1.js"></script>
       <script src="../scripts/donate.js"></script>
       <script src="../Bootstrap/jquery/jquery.min.js"></script>

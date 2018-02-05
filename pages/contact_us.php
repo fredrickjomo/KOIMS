@@ -14,7 +14,7 @@
     <script src="../jquery-3.2.1.js"></script>
       <!--<script src="main.js"></script>-->
 
-    <title>Kenya Orphanage Information Management System</title>
+    <title>Contact Kenya Orphanages</title>
   </head>
   <body><h2 class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">THE KENYA ORPHANS' HOMES</h2>
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
